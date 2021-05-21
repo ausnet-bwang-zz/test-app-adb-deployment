@@ -1,9 +1,9 @@
 param(
     [string]$Environment="INT",
-    [string]$Region = "westeurope",
-    [string]$ClusterId = "0920-081811-lamps471",
+    [string]$Region = "australiaeast",
+    [string]$ClusterId = "0521-130844-antis373",
     [string]$TargetDBFSFolderCode = "/DatabricksConnectDemo/Code",
-    [string]$BearerToken = ""
+    [string]$BearerToken = "dapi5fad0d6c6b9165a70468b9491c00a0ae"
 )
 Set-Location $PSScriptRoot
 

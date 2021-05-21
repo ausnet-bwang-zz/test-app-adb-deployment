@@ -8,5 +8,5 @@
         "**/pipelines.egg-info": true,
         "**/.DS_Store": true
     },
-    "python.pythonPath": "C:\\Users\\simon\\.conda\\envs\\dbconnectappdemo\\python.exe"
+    "python.pythonPath": "/home/bwang/miniconda3/envs/arm/bin/python"
 }

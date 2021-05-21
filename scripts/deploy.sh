@@ -1,0 +1,3 @@
+# after databricks configure with token...
+
+dbfs cp -r --overwrite artifacts dbfs:/test-app-deployment 

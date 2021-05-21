@@ -18,6 +18,6 @@ Copy-Item "./main.py" ./bin
 Copy-Item "./simpleExecute.py" ./bin
 Copy-Item "./configs/$Environment.config.json" "./bin/config.json"
 
-Remove-Item -Path ./build -Force -Recurse
-Remove-Item -Path ./dist -Force -Recurse
-Remove-Item -Path ./pipelines.egg-info -Force -Recurse
+# Remove-Item -Path ./build -Force -Recurse
+# Remove-Item -Path ./dist -Force -Recurse
+# Remove-Item -Path ./pipelines.egg-info -Force -Recurse

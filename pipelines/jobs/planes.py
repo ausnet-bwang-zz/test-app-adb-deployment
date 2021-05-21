@@ -19,6 +19,15 @@ def load_Planes(df):
   return
 
 def etl(year:int, dummyValue:int=99):
-  df = extract_Planes("/databricks-datasets/asa/planes", year)
-  df = transform_Planes(df, dummyValue)
+  # df = extract_Planes("/databricks-datasets/asa/planes", year)
+  # df = transform_Planes(df, dummyValue)
+  # load_Planes(df)
+  df = spark.createDataFrame(
+    [
+        (1, "foo"),  # create your data here, be consistent in the types.
+        (2, "bar"),
+    ],
+    ["id", "label"]  # add your column names here
+  )
   load_Planes(df)
+
